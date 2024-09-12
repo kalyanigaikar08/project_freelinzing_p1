@@ -1,0 +1,1120 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: poppins;
+    background-color: black;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, .8),rgba(196, 196, 196, 0.8)),url(images.jpg);
+    /* background-image: url(images.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.first-navigation{
+
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    /* opacity: 0.7; */
+    color: white;
+    display: flex;
+ 
+
+}
+
+.left-navigation{
+    height: 100%;
+    width: 60%;
+    /* background-color: lawngreen; */
+    display: flex;
+    /* justify-content: center; */
+  
+    align-items: center;
+    padding: 0vw 0vw;
+    padding-left: 6vw;
+}
+
+.left-navigation div{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+}
+
+
+h3{
+    font-size: 1.1vw;
+    font-weight: 500;  
+}
+i{
+    font-size: 1.5vw;
+    font-weight: 600;
+
+}
+
+.left-navigation img{
+    height: 32px;
+    /* margin: .5vw; */
+}
+
+.right-navigation{
+
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(68, 78, 224); */
+    padding: 0vw 6vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-navigation h3{
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin: 1.5vw;
+}
+
+.right-navigation button{
+
+    padding: .7vw 1vw;
+    border-radius: 3px;
+    border: none;
+    background-color: deeppink;
+    color: white;
+    font-size: 1.2vw;
+
+}
+
+.first-div{
+    height: calc(100%-80px);
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-left: 7vw; */
+    padding-top: 2vw;
+
+}
+.xyz{
+
+    height: 100%;
+    width: 70%;
+    /* background-color: rgb(218, 128, 128); */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-left: 6vw;
+    color: white;   
+
+}
+
+.xyz h1{
+    font-size: 4.2vw;
+    font-weight: 600;
+    line-height: 4.5vw;
+}
+
+button{
+    padding: 1.2vw 1.5vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+ul{
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+li{
+    font-size: 1.5vw;
+}
+.aa{
+    background-color: rgb(250, 6, 136);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    margin-right: 1vw;
+    /* margin: 2vw; */
+    margin-top: 2vw;
+}
+
+.bb{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.last-text{
+    color: white;
+    text-align: end;
+    font-size: 1.3vw;
+    margin-right: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-navigation{
+
+    height: 16%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 0vw 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aa:hover{
+    background-color: rgb(227, 121, 121);   
+}
+
+.bb:hover{
+    color: lightgray;
+}
+.second-navigation img{
+    height: 35px;
+}
+.second-navigation p{
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.second-div{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(34, 34, 34); */
+    background-image: url(WhatsApp\ Image\ 2024-07-08\ at\ 11.21.08\ AM\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 5vw 0;
+    /* border-left: 6px solid #48a1ff; */
+    display: flex;
+
+}
+
+.right-second-div{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightblue; */
+    padding-left: 4.5vw;
+    padding-top: 1vw;
+}
+
+.right-second-div h1{
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 4.5vw;
+    color: #ffffff;
+    /* margin-top: 3vw; */
+    margin-bottom: 2vw;
+    
+}
+.right-second-div h1 span{
+    color: deeppink;
+}
+
+.info-1{
+    height: 30%;
+    width: 40%;
+    /* background-color: rgb(36, 100, 121); */
+    /* margin-left: 1vw; */
+
+}
+.mm{
+    margin-top: 3vw;
+}
+.aaa{
+
+    margin-right: 3vw;
+    /* margin-top: 3vw; */
+
+}
+.info-1 h2{
+    font-size: 2.2vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+    color: white;
+}
+.info-1 p{
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: white;
+}
+
+.second-div-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.left-second-div img{
+    height: 380px;
+}
+.left-second-div{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-second-div{
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 2vw;
+}
+.end-second-div h4{
+    color: rgb(253, 3, 137);
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.end-second-div h2{
+color: #ffffff;
+font-size: 2.2vw;
+font-weight: 600;
+}
+
+
+
+
+
+
+
+.photo{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(128, 240, 206); */
+    /* padding: 3vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fre-photo{
+    height: 85%;
+    width: 93%;
+    /* background-color: rgb(100, 63, 212); */
+    display: flex;
+}
+.uppe-box{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(18, 136, 157); */
+    background-image: url(WhatsApp\ Image\ 2024-07-08\ at\ 2.04.04\ PM.jpeg);
+    background-size: cover;
+}
+
+.lowe-box{
+   height: 100%;
+    width: 50%;
+    /* background-color: rgb(226, 124, 50); */
+}
+.top-box{
+    width: 100%;
+    height: 50%;
+    /* background-color: deeppink; */
+    display: flex;
+    justify-content: space-between;
+}
+.left-top-bo{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(8, 35, 67); */
+    background-image: url(WhatsApp\ Image\ 2024-07-08\ at\ 1.56.41\ PM\ \(3\).jpeg);
+    background-size: cover;
+}
+.right-top-bo{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(13, 147, 62); */
+    background-image: url(WhatsApp\ Image\ 2024-07-08\ at\ 1.56.41\ PM\ \(1\).jpeg);
+    background-size: cover;
+
+}
+
+.oo{
+    background-image: url(WhatsApp\ Image\ 2024-07-09\ at\ 12.20.13\ PM.jpeg);
+    background-size: cover;
+}
+
+.kk{
+    background-image: url(WhatsApp\ Image\ 2024-07-09\ at\ 12.20.14\ PM.jpeg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-div{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(34, 34, 34); */
+    background-image: url(background-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 5vw 0;
+    /* border-left: 6px solid #48a1ff; */
+    display: flex;
+
+}
+
+.right-second-div{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightblue; */
+    padding-left: 4.5vw;
+    padding-top: 1vw;
+}
+
+.right-second-div h1{
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 4.5vw;
+    color: #ffffff;
+    /* margin-top: 3vw; */
+    margin-bottom: 2vw;
+    
+}
+.right-second-div h1 span{
+    color: deeppink;
+}
+
+.info-1{
+    height: 30%;
+    width: 45%;
+    /* background-color: rgb(36, 100, 121); */
+    /* margin-left: 1vw; */
+
+}
+.mm{
+    margin-top: 3vw;
+}
+.aaa{
+    margin-right: 3vw;
+    /* margin-top: 3vw; */
+
+}
+.info-1 h2{
+    font-size: 2.2vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+    color: white;
+}
+.info-1 p{
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: white;
+}
+
+.second-div-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.left-second-div img{
+    height: 380px;
+}
+.left-second-div{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-second-div{
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 2vw;
+}
+.end-second-div h4{
+    color: rgb(253, 3, 137);
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.end-second-div h2{
+color: #ffffff;
+font-size: 2.2vw;
+font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .second-navigation{
+
+    height: 16%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* background-color: lightblue; */
+    /* padding: 0vw 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+.SE{  
+    height: 16%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    /* background-color: lightblue; */
+    padding: 0vw 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 13vw;
+    display: flex;
+    padding: 0vw 3vw;
+
+}
+
+.SE img{
+    height: 20px;
+}
+.second-navigation p{
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.photo{
+    height: 80%;
+    width: 100%;
+    /* background-color: rgb(128, 240, 206); */
+    /* padding: 3vw; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 1.5vw;
+}
+
+.freee-photo{
+    height: 75%;
+    width: 90%;
+    /* background-color: rgb(100, 63, 212); */
+    display: flex;
+}
+.upper-box{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(18, 136, 157); */
+    background-image: url(cat\ background\ image.jpeg);
+    background-size: cover;
+}
+
+.lower-box{
+   height: 100%;
+    width: 50%;
+    /* background-color: rgb(226, 124, 50); */
+}
+.top-box{
+    width: 100%;
+    height: 50%;
+    /* background-color: deeppink; */
+    display: flex;
+    justify-content: space-between;
+}
+.left-top-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(8, 35, 67); */
+    background-image: url(handel.jpeg);
+    background-size: cover;
+}
+.right-top-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(13, 147, 62); */
+    background-image: url(WhatsApp\ Image\ 2024-07-08\ at\ 1.56.41\ PM\ \(1\).jpeg);
+    background-size: cover;
+
+}
+
+.ooo{
+    background-image: url(gils.jpeg);
+    background-size: cover;
+}
+
+.kkk{
+    background-image: url(WhatsApp\ Image\ 2024-07-09\ at\ 12.20.14\ PM.jpeg);
+    background-size: cover;
+}
+
+.four-box{
+    height: 100%;
+    width: 100%;
+    /* background-color: lawngreen; */
+    display: flex;
+}
+.right-four-box{
+    width: 35%;
+    height: 100%;
+    /* background-color: lightcoral; */
+    padding-left: 6vw;
+
+}
+.left-four-box{
+    width: 65%;
+    height: 100%;
+    /* background-color: rgb(186, 216, 32); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+
+}
+
+.right-four-box h1{
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 4.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.right-four-box h1 span{
+    color: deeppink;
+}
+
+.first-text-box p{
+font-size: 1.2vw;
+font-weight: 500;
+margin-bottom: 1.3vw;
+color: white;
+}
+
+
+.first-text-box p span{
+    color: deeppink;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-div{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(34, 34, 34); */
+  
+    margin: 5vw 0;
+    /* border-left: 6px solid #48a1ff; */
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.riyaa{
+
+    background-image: url(ai-business-bg-ld\ \(1\).webp);
+    background-size: cover;
+    /* background-position: center; */
+    
+
+}
+
+.right-second-div{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightblue; */
+    padding-left: 4.5vw;
+    padding-top: 1vw;
+}
+
+.right-second-div h1{
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 4.5vw;
+    color: #ffffff;
+    /* margin-top: 3vw; */
+    margin-bottom: 2vw;
+    
+}
+.right-second-div h1 span{
+    color: deeppink;
+}
+
+.info-1{
+    height: 30%;
+    width: 45%;
+    /* background-color: rgb(36, 100, 121); */
+    /* margin-left: 1vw; */
+
+}
+.mm{
+    margin-top: 3vw;
+}
+.aaa{
+    margin-right: 3vw;
+    /* margin-top: 3vw; */
+
+}
+.info-1 h2{
+    font-size: 2.2vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+    color: white;
+}
+.info-1 p{
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: white;
+}
+
+.second-div-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-second-sis-div img{
+    height: 250px;   
+}
+
+.left-second-sis-div{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-second-piya-div{
+    height: 60px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 2vw;
+}
+.end-second-piya-div h4{
+    color: rgb(253, 3, 137);
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.end-second-piya-div h2{
+color: #ffffff;
+font-size: 2.2vw;
+font-weight: 600;
+}
+
+
+
+
+
+.photo{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(128, 240, 206); */
+    /* padding: 3vw; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.freeee-photo{
+    height: 80%;
+    width: 90%;
+    /* background-color: rgb(100, 63, 212); */
+    display: flex;
+}
+.upperr-box{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(18, 136, 157); */
+    background-image: url(architectural-design-v2.webp);
+    background-size: cover;
+}
+
+.lowerr-box{
+   height: 100%;
+    width: 50%;
+    /* background-color: rgb(226, 124, 50); */
+}
+.top-box{
+    width: 100%;
+    height: 50%;
+    /* background-color: deeppink; */
+    display: flex;
+    justify-content: space-between;
+}
+.leftt-top-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(8, 35, 67); */
+    background-image: url(part1.webp);
+    background-size: cover;
+}
+.rightt-top-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(13, 147, 62); */
+    background-image: url(part2.webp);
+    background-size: cover;
+
+}
+
+.oooo{
+    background-image: url(part3.webp);
+    background-size: cover;
+}
+
+.kkkk{
+    background-image: url(part4.webp);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+.second-div{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(34, 34, 34); */
+  
+    margin: 5vw 0;
+    /* border-left: 6px solid #48a1ff; */
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.riya2{
+    background-image: url(word.webp);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.right-second-div{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightblue; */
+    padding-left: 4.5vw;
+    padding-top: 1vw;
+}
+.prqm{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prqm h5{
+    color: deeppink;
+    font-size: 1.2vw;
+   
+   
+}
+
+.prqm h2{
+    font-size: 2.2vw;
+    margin-bottom: 1.7vw;
+    margin-top: 1.3vw;
+}
+
+.prqm p{
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+}
+
+.last-freelincer-box{
+    height: 70%;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    padding: 3vw;
+    border-bottom: .2px solid white;
+
+}
+.first-boxx{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(119, 104, 215); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+
+}
+.first-boxx img{
+    height: 30px;
+    margin-bottom: 2vw;
+    
+     
+}
+.first-boxx p{
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1vw;
+
+}
+
+.secondd-boxx{
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(184, 212, 190); */
+    color: #ffffff;   
+}
+.secondd-boxx h4{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.secondd-boxx p{
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin: .5vw;
+}
+
+.thirdd-boxx{
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(60, 195, 90); */
+    color: white;
+}
+
+.thirdd-boxx h4{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.thirdd-boxx p{
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin: .5vw;
+}
+
+.fourr-boxx{
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(125, 195, 230); */
+    color: #ffffff;
+}
+
+
+.fourr-boxx h4{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.fourr-boxx p{
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin: .5vw;
+}
+.fivet-boxx{
+    height: 100%;
+    width: 15%;
+    /* background-color: rgb(189, 97, 143); */
+    color: #ffffff;
+}
+
+.fivet-boxx h4{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.fivet-boxx p{
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin: .5vw;
+}
+.sixx-boxx{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(70, 27, 155); */
+}
+.sixx-boxx h4{
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2vw;
+}
+
+.sixx-boxx img{
+    padding-bottom: 1vw;
+} 
+.icons{
+    color: white;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.shevat{
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(82, 145, 194); */
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pahila{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(144, 200, 34); */
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 2vw;
+}
+.dusara{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(200, 34, 122); */
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 2vw;
+}
+.thirsa{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(160, 107, 64); */
+    font-size: .8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 2vw;
+}
+
+
+
+
+
+@media(min-width:1px) and (max-width:425px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
